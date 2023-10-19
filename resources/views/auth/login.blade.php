@@ -6,8 +6,8 @@
 
 <div class="sidenav">
          <div class="login-main-text">
-            <h2>Application<br> Login Page</h2>
-            <p>Login or register from here to access.</p>
+            <h2>INEFABLE-7<br> INICIAR SESION</h2>
+            <p>INICIA SESION EN LA COMPAÑIA</p>
          </div>
       </div>
       <div class="main">
