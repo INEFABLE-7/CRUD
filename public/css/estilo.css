@@ -141,53 +141,31 @@ a:hover .content {
 
 /*ESLIDER ---------------*/
 
+/* Estilo para el enlace "PRODUCTOS" */
+a {
+    position: relative;
+}
 
+/* Oculta el carrusel por defecto */
 .slider {
-    position: relative;
-    width: 100%;
-}
-
-input[type="radio"] {
     display: none;
-}
-
-.slides {
-    display: flex;
-    overflow: hidden;
-}
-
-.image {
-    flex: 0 0 100%;
-    position: relative;
-}
-
-label {
     position: absolute;
-    top: 0;
+    top: 100%;
     left: 0;
     width: 100%;
-    height: 100%;
-    cursor: pointer;
+    z-index: 1;
 }
 
-img {
-    width: 100%;
-    height: auto;
+/* Muestra el carrusel al pasar el cursor sobre el enlace */
+a:hover .slider {
+    display: block;
 }
 
-input:checked + .slides .image {
-    opacity: 0;
+/* Estilos adicionales para el carrusel y las imágenes (ajusta según tus necesidades) */
+.slider {
+    /* Agrega tus estilos para el carrusel */
 }
 
-input:checked + .slides .image + .image {
-    animation: show 1s;
-}
-
-@keyframes show {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
+.image img {
+    /* Estilos para las imágenes en el carrusel */
 }
