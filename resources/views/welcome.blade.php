@@ -23,10 +23,10 @@
                     @auth
                         <a href="{{ url('/home') }}" class="font-semibold text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Home</a>
                     @else
-                        <a href="{{ route('login') }}" class="font-semibold text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Log in</a>
+                        <a href="{{ route('login') }}" class="font-semibold text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500"><h1>Log in</h1></a>
 
                         @if (Route::has('register'))
-                            <a href="{{ route('register') }}" class="ml-4 font-semibold text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Register</a>
+                            <a href="{{ route('register') }}" class="ml-4 font-semibold text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500"><h1>Register</h1></a>
                         @endif
                     @endauth
                 </div>
@@ -36,14 +36,50 @@
         
             <H1> INEFABLE-7 </H1>
 
-<nav>
-	<a href="#">MENU</a>
-	<a href="#">USUARIOS</a>
-	<a href="#">RESUMEN</a>
-	<a href="#">CONTACTOS</a>
-	<a href="#">MAS</a>
-	<div class="animation start-home"></div>
+            <nav>
+    <a href="#">
+        MENU
+       
+    </a>
+    <a href="#">
+    PRODUCTOS
+        <span class="content"><div class="slider">
+    <input type="radio" name="slider" id="slide1" checked>
+    <input type="radio" name="slider" id="slide2">
+    <input type="radio" name="slider" id="slide3">
+    
+    <div class="slides">
+        <div class="image">
+            <label for="slide1"></label>
+            <img src="https://img.freepik.com/fotos-premium/videojuego-fondo-abstracto-esports-scifi-gaming-cyberpunk-vr-simulacion-realidad-virtual-escenario-metaverso-stand-pedestal-etapa-3d-ilustracion-renderizado-futurista-neon-glow-room_42100-2572.jpg" alt="Imagen 1">
+        
+        <
+            <label for="slide2"></label>
+            <img src="https://img.freepik.com/fotos-premium/videojuego-fondo-abstracto-esports-scifi-gaming-cyberpunk-vr-simulacion-realidad-virtual-escenario-metaverso-stand-pedestal-etapa-3d-ilustracion-renderizado-futurista-neon-glow-room_42100-2572.jpg" alt="Imagen 2">
+     
+       
+            <label for="slide3"></label>
+            <img src="https://img.freepik.com/fotos-premium/videojuego-fondo-abstracto-esports-scifi-gaming-cyberpunk-vr-simulacion-realidad-virtual-escenario-metaverso-stand-pedestal-etapa-3d-ilustracion-renderizado-futurista-neon-glow-room_42100-2572.jpg" alt="Imagen 3">
+        </div>
+    </div>
+</div></span>
+    </a>
+    <a href="#">
+        OFERTAS
+        <span class="content">Contenido de resumen</span>
+    </a>
+    <a href="#">
+        CONTACTOS
+        <span class="content">Contenido de contactos</span>
+    </a>
+    <a href="#">
+        MAS
+        <span class="content">Contenido adicional</span>
+    </a>
+    <div class="animation start-home"></div>
 </nav>
+
+
 
 <p>
   Jean  <span>INEFABLE-7</span>
