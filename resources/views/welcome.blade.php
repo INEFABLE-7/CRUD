@@ -42,28 +42,7 @@
     </a>
     <a href="#">
     PRODUCTOS
-    <span class="content">
-        <div class="slider">
-            <input type="radio" name="slider" id="slide1" checked>
-            <input type="radio" name="slider" id="slide2">
-            <input type="radio" name="slider" id="slide3">
-
-            <div class="slides">
-                <div class="image">
-                    <label for="slide1"></label>
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlbmH9h1GjJcv7cvAtgZlc71jfV0Uq_Go55nhTWswvcw&s" alt="Imagen 1">
-                </div>
-                <div class="image">
-                    <label for="slide2"></label>
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVTsFmQd8jDBfZTYNid7ETr5DnK61ZHzrg3UANNqKR7A&s" alt="Imagen 2">
-                </div>
-                <div class="image">
-                    <label for "slide3"></label>
-                    <img src="https://img.freepik.com/fotos-premium/sala-tecnologia-futurista-abstracta-neon-verde-rosa_170979-237.jpg?w=2000" alt="Imagen 3">
-                </div>
-            </div>
-        </div>
-    </span>
+    <span class="content">mostrador de productos</span>
 </a>
 
     <a href="#">

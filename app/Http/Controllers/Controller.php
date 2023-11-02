@@ -10,3 +10,6 @@ class Controller extends BaseController
 {
     use AuthorizesRequests, ValidatesRequests;
 }
+{
+    return redirect('/tienda'); // Cambia '/dashboard' por la URL de la página a la que deseas redirigir al usuario.
+}

@@ -14,7 +14,7 @@
          <div class="col-md-6 col-sm-12">
             <div class="login-form">
                <form action="{{ route('login')}}" method="post">
-                @csrf
+               @csrf
                   <div class="form-group">
                      <label>USUARIO INEFABLE-7</label>
                      <input type="text" class="form-control" placeholder="User Name" name="email">

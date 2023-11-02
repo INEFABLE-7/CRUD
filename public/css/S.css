@@ -1,0 +1,18 @@
+
+
+/* Estilo para el botón de Cerrar Sesión */
+.logout-button {
+    background-color: rgb(77, 124, 255); /* Color de fondo rojo (puedes cambiarlo) */
+    color: #000000; /* Color de texto blanco */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar el ratón por encima */
+    font-size: 16px; /* Tamaño de fuente */
+    text-decoration: none; /* Quita la decoración de enlace */
+    display: inline-block; /* Hace que el botón se muestre en línea */
+    padding: 10px 20px; /* Espaciado interior del botón */
+}
+
+.logout-button:hover {
+    background-color: #ff3333; /* Color de fondo más oscuro al pasar el ratón por encima */
+}
